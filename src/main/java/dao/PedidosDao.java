@@ -27,7 +27,7 @@ public class PedidosDao {
     //establecemos la conexion
     public PedidosDao() {
         try {
-            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/neptuno", "root", "");
+            conexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_neptuno", "root", "");
 
         } catch (SQLException e) {
             System.out.println("Error al conectar..." + e.getMessage());

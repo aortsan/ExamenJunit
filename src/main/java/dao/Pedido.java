@@ -173,5 +173,4 @@ public class Pedido {
     public void setDetallesList(ArrayList<Detalle> detallesList) {
         this.detallesList = detallesList;
     }
-
 }
